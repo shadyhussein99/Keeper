@@ -1,5 +1,5 @@
 # Keeper
-Helps to keep your ideas as Notes
+Personal NoteBook
 
 # Installation
 To run the app locally, use the following commands
