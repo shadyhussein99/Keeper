@@ -8,10 +8,10 @@ function App() {
   var [wholeNote, setWholeNote] = useState([]);
 
   return (
-    <div>
+    <main>
       <Header />
       <CreateArea setWholeNote={setWholeNote} />
-      {wholeNote.map(function (value, index) {
+      {wholeNote.map((value, index) => {
         return (
           <Note
             key={index}
@@ -24,7 +24,7 @@ function App() {
         );
       })}
       <Footer />
-    </div>
+    </main>
   );
 }
 

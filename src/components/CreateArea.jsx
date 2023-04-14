@@ -28,7 +28,7 @@ function CreateArea(props) {
   }
 
   return (
-    <div>
+    <section>
       <form className="create-note">
         {expand && <input
           onChange={titleChange}
@@ -46,7 +46,7 @@ function CreateArea(props) {
           <Fab onClick={addButton}><AddIcon /></Fab>
         </Zoom>
       </form>
-    </div>
+    </section>
   );
 }
 
